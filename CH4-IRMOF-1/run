@@ -1,0 +1,4 @@
+#!/bin/bash
+/home/lucas/Programs/gRASPA/src_clean/nvc_main.x
+mv Output/*.data output.data
+rm -r AllData FirstBead Lambda Restart TMMC

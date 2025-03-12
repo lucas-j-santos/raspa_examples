@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=IRMOF-1     
+#SBATCH --output=job_output.txt 
+#SBATCH --error=job_error.txt   
+#SBATCH --ntasks=1              
+#SBATCH --cpus-per-task=24     
+#SBATCH --gpus-per-task=1
+#SBATCH --mem=30G
+
+srun bash run
+
+# sbatch submiter.srm
+# scancel <jobid> 
